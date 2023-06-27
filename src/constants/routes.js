@@ -1,4 +1,5 @@
 export const ROUTES = {
-    main: '/',
-favorite: '/favorite/:id',
-}
+  undefined: '*',
+  main: '/',
+  favorite: '/favorite/:id',
+};
