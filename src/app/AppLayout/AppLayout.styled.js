@@ -30,8 +30,8 @@ export const AppLayoutStyled = {
     gap: 40px;
   `,
   Link: styled(Link)`
-    font-size: 26px;
-    font-weight: 700;
+    font-size: ${({ fontSize }) => fontSize}px;
+    font-weight: ${({ fontWeight }) => (fontWeight ? 600 : 700)};
     color: white;
     transition: all 0.2s;
 
@@ -40,8 +40,10 @@ export const AppLayoutStyled = {
       border-bottom: 2px solid white;
     }
   `,
-  Footer: styled.footer``,
+  Footer: styled.footer`
+    padding: 10px;
+  `,
   Email: styled.a`
-  color: white;
+    color: white;
   `,
 };
