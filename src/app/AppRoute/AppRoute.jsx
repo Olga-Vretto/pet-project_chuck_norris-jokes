@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate, useRoutes } from 'react-router-dom';
 import { ROUTES } from '../../constants/routes';
 
-const AppRouter = () => {
+ const AppRoute = () => {
   const routes = useRoutes([
     { path: ROUTES.undefined, element: <Navigate to='/' /> },
     { path: ROUTES.main, element: <div>Main</div> },
@@ -10,5 +10,4 @@ const AppRouter = () => {
   ]);
   return routes;
 };
-
-export default AppRouter;
+ export default AppRoute;
