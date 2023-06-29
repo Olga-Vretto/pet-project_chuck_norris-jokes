@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const ButtonStyled = {
+    Wrapper: styled.div`
+    justify-content: center;
+    `,
     Button: styled.button`
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: rgba(1, 1, 1, 0.9);
     border: 1px solid grey;
     border-radius: 10px;
-    padding: 18px 50px;
+    padding: 14px 40px;
     transition: all 0.3s ease;
     cursor: pointer;
     &:hover {

@@ -4,15 +4,12 @@ import { Link } from 'react-router-dom';
 export const AppLayoutStyled = {
   Wrapper: styled.div`
     min-height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     background-color: black;
     opacity: 0.8;
-
     padding: 20px 50px;
   `,
   Header: styled.header`

@@ -9,10 +9,9 @@ export const QuoteStyled = {
     width: 1000px;
   `,
   Text: styled.p`
-  font-size: 18px;
-  font-weight: 600;
-  text-align: center;
-  color: black;
-  
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
   `,
 };
