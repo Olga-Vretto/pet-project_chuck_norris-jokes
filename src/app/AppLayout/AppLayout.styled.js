@@ -6,7 +6,6 @@ export const AppLayoutStyled = {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     background-color: black;
     opacity: 0.8;
@@ -17,6 +16,7 @@ export const AppLayoutStyled = {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 120px;
   `,
 
   Logo: styled.img`
@@ -39,6 +39,8 @@ export const AppLayoutStyled = {
   `,
   Footer: styled.footer`
     padding: 10px;
+    position: fixed;
+    bottom: 4%;
   `,
   Email: styled.a`
     color: white;

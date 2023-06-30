@@ -7,7 +7,7 @@ export const QuoteStyled = {
     border: 1px solid black;
     border-radius: 9px;
     width: 1200px;
-    margin: 100px auto 0;
+    margin: 100px auto 0px;
 
   `,
   Text: styled.p`
