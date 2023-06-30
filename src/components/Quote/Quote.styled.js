@@ -3,13 +3,15 @@ import styled from 'styled-components';
 export const QuoteStyled = {
   Wrapper: styled.div`
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid black;
     border-radius: 9px;
-    width: 1000px;
+    width: 1200px;
+    margin: 100px auto 0;
+
   `,
   Text: styled.p`
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     color: black;

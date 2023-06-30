@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 export const ButtonStyled = {
-    Wrapper: styled.div`
-    justify-content: center;
-    `,
     Button: styled.button`
     font-size: 20px;
     font-weight: 600;
