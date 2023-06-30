@@ -18,9 +18,18 @@ export const AppLayoutStyled = {
     width: 100%;
     margin-bottom: 120px;
   `,
-
+LogoBlock: styled.div`
+display: flex;
+align-items: center;
+gap: 30px;
+`,
   Logo: styled.img`
     width: 100px;
+  `,
+  Title: styled.h1`
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
   `,
   Nav: styled.nav`
     display: flex;
