@@ -9,7 +9,7 @@ export const useMainState = () => {
   useEffect(() => {
     setIsLoading(true);
     fetchCategories();
-    fetchQuote("");
+    fetchQuote('');
     setIsLoading(false);
   }, []);
 

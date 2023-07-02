@@ -5,6 +5,6 @@ export const MainStyled = {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
   `,
 };
